@@ -77,7 +77,7 @@
 
                                <br>
                                <div id="keywords_div">
-                               <a class="margin-right-10px" data-toggle="modal" data-target="#keywords_modal" data-keywords={{json_encode($user->keywords)}} ><i class="fa fa-pencil"></i></a>Keywords<br>
+                               <a class="margin-right-10px" data-toggle="modal" data-target="#keywords_modal" data-keywords="{{json_encode($user->keywords)}}"><i class="fa fa-pencil"></i></a>Keywords<br>
                                <span class="side_sub">
                                 @if(count($user->keywords)>0)
                                  @foreach($user->keywords as $keyword)
